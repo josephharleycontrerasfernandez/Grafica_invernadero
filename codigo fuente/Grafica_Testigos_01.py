@@ -3,6 +3,8 @@ import numpy as np
 import pandas as pd
 from datetime import datetime
 
+print("joseph paso por aca")
+
 dt = pd.read_csv('datosTrue01.csv')
 df = pd.DataFrame(dt)
 #print(df)
